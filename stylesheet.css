@@ -1,0 +1,33 @@
+#profile-frame {
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: avenir;
+}
+
+#profile-pic {
+  width:200px;
+  height:200px;
+}
+
+#title {
+  color:gray;
+  font-size:18px;
+}
+
+#ens {
+  color: #FF8C00;
+  background: -webkit-linear-gradient(0deg, #40E0D0, #FF8C00, #FF0080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#profile {
+  color:midnightblue;
+  font-size:16px;
+}
+
+.icon {
+  margin: 5px;
+}
+
