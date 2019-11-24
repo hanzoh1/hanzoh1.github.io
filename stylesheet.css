@@ -16,6 +16,7 @@ body {
 
 .right-side {
   width: 50%;
+  float: right;
 }
 
 .profile-frame {
