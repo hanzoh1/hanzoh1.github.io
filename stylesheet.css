@@ -3,31 +3,40 @@ body {
   margin: 0;
 }
 
-#profile-frame {
+.left-side {
+  float: left;
+  width: 50%;
+}
+
+.right-side {
+  width: 50%;
+}
+
+.profile-frame {
   max-width: 300px;
   margin: auto;
   text-align: center;
   font-family: avenir;
 }
 
-#profile-pic {
+.profile-pic {
   width: 200px;
   height: 200px;
 }
 
-#title {
+.title {
   color: gray;
   font-size: 18px;
 }
 
-#ens {
+.ens {
   color: #ff8c00;
   background: -webkit-linear-gradient(0deg, #40e0d0, #ff8c00, #ff0080);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-#profile {
+.profile {
   color: midnightblue;
   font-size: 16px;
 }
