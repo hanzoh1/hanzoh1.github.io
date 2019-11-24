@@ -20,14 +20,16 @@ html body {
 
 .column-left {
   background-color: #2b2b2b;
-  opacity: 0.2;
+  opacity: 0.05;
   z-index: 2;
   position: relative;
 }
 
 .background-img {
   background-image: url("https://hanzoh1.github.io/background-img.jpg");
-  background-size: 25% auto;
+  background-size: cover;
+  width:960px;
+  height:auto;
   z-index: 1;
 }
 
