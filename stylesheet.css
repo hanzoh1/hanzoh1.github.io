@@ -26,6 +26,8 @@ html body {
 
 .background-img {
   background-image: url("https://hanzoh1.github.io/background-img.jpg");
+  height: 700px;
+  width: 100%;
   background-size: cover;
   z-index: 1;
 }
