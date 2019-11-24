@@ -1,26 +1,38 @@
 @charset "utf-8";
-body {
+html,
+body,
+main {
   margin: 0;
+  padding: 0;
   height: 100%;
-  width: 100%;
 }
 
-.left-side {
+.wrapper {
+  display: flex;
+}
+
+.column {
+  position: absolute;
   width: 50%;
+  height: 100%;
 }
 
-.background-img {
-  height: auto;
+.column-left {
   width: auto;
+  background: url(hanzoh1.github.io/daniel-roe-lpjb_UMOyx8-unsplash.jpg)
+    no-repeat top center;
+  background-size: cover;
+  left: 0;
 }
 
-.right-side {
-  width: 50%;
-  float: right;
+.column-right {
+  width: auto;
+  right: 0;
+  overflow-y: scroll;
 }
 
 .profile-frame {
-  max-width: 300px;
+  width: auto;
   margin: auto;
   text-align: center;
   font-family: avenir;
