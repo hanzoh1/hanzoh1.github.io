@@ -1,3 +1,8 @@
+@charset "utf-8";
+body {
+  margin: 0;
+}
+
 #profile-frame {
   max-width: 300px;
   margin: auto;
@@ -6,28 +11,27 @@
 }
 
 #profile-pic {
-  width:200px;
-  height:200px;
+  width: 200px;
+  height: 200px;
 }
 
 #title {
-  color:gray;
-  font-size:18px;
+  color: gray;
+  font-size: 18px;
 }
 
 #ens {
-  color: #FF8C00;
-  background: -webkit-linear-gradient(0deg, #40E0D0, #FF8C00, #FF0080);
+  color: #ff8c00;
+  background: -webkit-linear-gradient(0deg, #40e0d0, #ff8c00, #ff0080);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 #profile {
-  color:midnightblue;
-  font-size:16px;
+  color: midnightblue;
+  font-size: 16px;
 }
 
 .icon {
   margin: 5px;
 }
-
