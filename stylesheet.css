@@ -7,15 +7,16 @@ body {
 }
 
 .wrapper {
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   display: flex;
   min-height: 100vh;
 }
 
 .column-left {
-  background-image: url(hanzoh1.github.io/IMG_8715.png) no-repeat top center;
-  width: 50vw;
+  background-image: url(hanzoh1.github.io/daniel-roe-lpjb_UMOyx8-unsplash.jpg)
+    no-repeat top center;
+  width: 50%;
   height: 100vh;
   background-size: cover;
   left: 0;
