@@ -10,6 +10,7 @@ main {
 img {
   max-width: 100%;
   height: auto;
+  object-fit: cover;
 }
 
 .wrapper {
@@ -23,13 +24,14 @@ img {
 }
 
 .column-left {
+  width: auto;
   background: url(hanzoh1.github.io/daniel-roe-lpjb_UMOyx8-unsplash.jpg)
     no-repeat top center;
-  background-size: cover;
   left: 0;
 }
 
 .column-right {
+  width: auto;
   right: 0;
   overflow-y: scroll;
 }
