@@ -5,15 +5,12 @@ body {
   width: 100%;
 }
 
-main {
-  height: auto;
-  width: auto;
-}
-
 .left-side {
   width: 50%;
   background-image: url(hanzoh1.github.io/daniel-roe-lpjb_UMOyx8-unsplash.jpg),
     #333333;
+  background-size: 100% auto;
+  background-position: left top;
 }
 
 .right-side {
