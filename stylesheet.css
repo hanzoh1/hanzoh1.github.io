@@ -1,8 +1,11 @@
 @charset "utf-8";
 body {
   margin: 0;
-  height: 100%;
-  width: 100%;
+}
+
+.main {
+  height: 2000px;
+  width: 2000px;
 }
 
 .left-side {
@@ -11,9 +14,9 @@ body {
   background-position: left top;
 }
 
-.background-pic {
-  height: auto;
-  width: auto;
+.background-img {
+  height: 2000px;
+  width: 1000px;
 }
 
 .right-side {
