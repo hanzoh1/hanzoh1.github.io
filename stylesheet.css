@@ -10,17 +10,18 @@ body {
   width: 100vw;
   height: 100vh;
   display: flex;
+  min-height: 100vh;
 }
 
 .column {
   position: absolute;
-  width: 50%;
+  width: 50vw;
   height: auto;
 }
 
 .column-left {
   background-image: url(hanzoh1.github.io/daniel-roe-lpjb_UMOyx8-unsplash.jpg)
-    no-repeat top center !important;
+    no-repeat top center;
   background-size: cover;
   left: 0;
 }
