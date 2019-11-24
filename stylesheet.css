@@ -19,12 +19,11 @@ img {
 
 .column {
   position: absolute;
-  width: 50%;
-  height: 100%;
+  width: 50vw;
+  height: 100vh;
 }
 
 .column-left {
-  height: 100vh;
   background: url(hanzoh1.github.io/daniel-roe-lpjb_UMOyx8-unsplash.jpg)
     no-repeat top center;
   background-size: cover;
@@ -32,7 +31,6 @@ img {
 }
 
 .column-right {
-  height: 100vh;
   right: 0;
   overflow-y: scroll;
 }
