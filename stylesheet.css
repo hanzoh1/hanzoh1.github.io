@@ -10,6 +10,7 @@ html body {
   display: flex;
   height: 100vh;
   background: none;
+  position: relative;
 }
 
 .half-screen {
@@ -26,9 +27,7 @@ html body {
 
 .background-img {
   background-image: url("https://hanzoh1.github.io/background-img.jpg");
-  height: 700px;
-  width: 100%;
-  background-size: cover;
+  background-size: 25% auto;ß
   z-index: 1;
 }
 
