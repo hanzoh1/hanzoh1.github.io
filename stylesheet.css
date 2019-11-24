@@ -5,6 +5,7 @@
   width: 100%;
   display: flex;
   min-height: 100vh;
+  background-image: url(hanzoh1.github.io/IMG_8715.png);
 }
 
 .column {
@@ -13,7 +14,6 @@
 }
 
 .column-left {
-  background-image: url(hanzoh1.github.io/IMG_8715.png);
   background-size: cover;
 }
 
