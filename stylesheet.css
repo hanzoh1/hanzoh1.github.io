@@ -1,10 +1,4 @@
 @charset "utf-8";
-html,
-body {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-}
 
 .wrapper {
   height: 100vh;
@@ -21,11 +15,6 @@ body {
 .column-left {
   background-image: url(hanzoh1.github.io/IMG_8715.png);
   background-size: cover;
-  left: 0;
-}
-
-.column-right {
-  right: 0;
 }
 
 .profile-frame {
