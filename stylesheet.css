@@ -6,6 +6,8 @@ body {
 .left-side {
   float: left;
   width: 50%;
+  background-image: url(hanzoh1.github.io/daniel-roe-lpjb_UMOyx8-unsplash.jpg),
+    #333333;
 }
 
 .right-side {
