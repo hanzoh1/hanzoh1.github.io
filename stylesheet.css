@@ -6,6 +6,11 @@ body {
   height: 100%;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 .wrapper {
   width: 100vw;
   height: 100vh;
@@ -19,16 +24,14 @@ body {
 }
 
 .column-left {
-  width: 50vw;
   height: 100vh;
   background: url(hanzoh1.github.io/daniel-roe-lpjb_UMOyx8-unsplash.jpg)
     no-repeat top center;
-  object-fit: cover;
+  background-size: cover;
   left: 0;
 }
 
 .column-right {
-  width: 50vw;
   height: 100vh;
   right: 0;
   overflow-y: scroll;
