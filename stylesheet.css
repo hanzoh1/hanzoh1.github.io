@@ -23,7 +23,7 @@ body {
 }
 
 .column-right {
-  width: 50vw;
+  width: 50%;
   height: 100vh;
   right: 0;
 }
