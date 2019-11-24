@@ -2,18 +2,17 @@
 
 .wrapper {
   height: 100vh;
-  width: 100%;
-  display: flex;
-  min-height: 100vh;
+  width: 100vw;
 }
 
 .column {
-  width: 50%;
-  height: auto;
+  height: 100vh;
+  width: 50vw;
 }
 
 .background-img {
-  object-fit: cover;
+  background: url("hanzoh1.github.io/daniel-roe-lpjb_UMOyx8-unsplash.jpg")
+    center/cover;
 }
 
 .profile-frame {
