@@ -7,10 +7,9 @@ body {
 
 .left-side {
   width: 50%;
-  background-image: url(hanzoh1.github.io/daniel-roe-lpjb_UMOyx8-unsplash.jpg),
+  background: url(hanzoh1.github.io/daniel-roe-lpjb_UMOyx8-unsplash.jpg) left
+      top 100% auto,
     #333333;
-  background-size: 100% auto;
-  background-position: left top;
 }
 
 .right-side {
