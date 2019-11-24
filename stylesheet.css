@@ -19,8 +19,8 @@ img {
 
 .column {
   position: absolute;
-  width: 50vw;
-  height: 100vh;
+  width: 50%;
+  height: auto;
 }
 
 .column-left {
