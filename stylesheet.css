@@ -13,8 +13,9 @@ main {
 .left-side {
   float: left;
   width: 50%;
-  background-image: url(hanzoh1.github.io/daniel-roe-lpjb_UMOyx8-unsplash.jpg),
-    #333333;
+  background: #ddd url(hanzoh1.github.io/daniel-roe-lpjb_UMOyx8-unsplash.jpg)
+    no-repeat center center;
+  background-size: cover;
 }
 
 .right-side {
