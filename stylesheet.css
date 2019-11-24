@@ -11,11 +11,11 @@ main {
 }
 
 .left-side {
-  float: left;
   width: 50%;
   background-image: url(hanzoh1.github.io/daniel-roe-lpjb_UMOyx8-unsplash.jpg),
     #333333;
-  background-size: cover;
+  background-size: 100% auto;
+  background-position: left top;
 }
 
 .right-side {
