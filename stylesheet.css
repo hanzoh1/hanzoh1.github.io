@@ -1,7 +1,3 @@
-<<<<<<< Updated upstream
-#profile-frame {
-  max-width: 300px;
-=======
 @charset "utf-8";
 
 html body {
@@ -40,6 +36,7 @@ html body {
   right: 0;
   top: 0;
   bottom: 0;
+  height: auto;
 }
 
 .content {
@@ -48,24 +45,21 @@ html body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  width: auto;
+  margin: auto;
+  text-align: center;
 }
+
 
 .column-right {
   background-color: #ffffff;
 }
 
-.content {
-  width: auto;
->>>>>>> Stashed changes
-  margin: auto;
-  text-align: center;
-}
 
-<<<<<<< Updated upstream
 #profile-pic {
   width:200px;
   height:200px;
-=======
+
 .my-record {
   text-align: left;
 }
@@ -82,32 +76,31 @@ html body {
 .detail {
   line-height: 1.7;
   padding: 5px 20px;
->>>>>>> Stashed changes
 }
 
-#title {
-  color:gray;
-  font-size:18px;
+.profile-pic {
+  border-radius: 100px;
+  width: 200px;
+  height: 200px;
 }
 
-#ens {
-  color: #FF8C00;
-  background: -webkit-linear-gradient(0deg, #40E0D0, #FF8C00, #FF0080);
+.title {
+  color: gray;
+  font-size: 18px;
+}
+
+.ens {
+  color: #ff8c00;
+  background: -webkit-linear-gradient(0deg, #40e0d0, #ff8c00, #ff0080);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-<<<<<<< Updated upstream
-#profile {
-  color:midnightblue;
-  font-size:16px;
-=======
 .profile {
   color: midnightblue;
   font-size: 16px;
   z-index: 1;
   position: relative;
->>>>>>> Stashed changes
 }
 
 .icon {
@@ -122,4 +115,3 @@ html body {
   z-index: 1;
   position: relative;
 }
-
