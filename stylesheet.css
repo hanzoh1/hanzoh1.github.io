@@ -7,6 +7,11 @@ html body {
   font-family: avenir;
 }
 
+a {
+  text-decoration: none;
+  color: lightblue;
+}
+
 .wrap {
   display: flex;
   height: 100vh;
@@ -27,7 +32,7 @@ html body {
 }
 
 .background-color {
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.7);
   height: 100vh;
   width: 100%;
 }
@@ -72,7 +77,6 @@ html body {
 }
 
 .title {
-  color: gray;
   font-size: 18px;
 }
 
@@ -84,7 +88,7 @@ html body {
 }
 
 .profile {
-  color: lightskyblue;
+  color: mintcream;
   font-size: 16px;
 }
 
