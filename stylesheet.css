@@ -28,8 +28,8 @@ html body {
 .background-img {
   background-image: url("https://hanzoh1.github.io/background-img.jpg");
   background-size: cover;
-  width:960px;
-  height:auto;
+  width: 960px;
+  height: auto;
   z-index: 1;
 }
 
@@ -44,7 +44,7 @@ html body {
 .name {
   position: absolute;
   bottom: 30%;
-  left:50%
+  left: 50%;
   transform: trnaslate(-30%, -50%);
 }
 
