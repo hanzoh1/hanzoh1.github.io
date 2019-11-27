@@ -19,26 +19,18 @@ html body {
 }
 
 .column-left {
-  background-color: #2b2b2b;
-  opacity: 0.05;
-  z-index: 2;
   position: relative;
-}
-
-.background-img {
   background-image: url("https://hanzoh1.github.io/background-img.jpg");
   background-size: cover;
-  width: 960px;
   height: auto;
-  z-index: 1;
 }
 
 .content {
+  color: #ffffff;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  z-index: 3;
 }
 
 .name {
@@ -52,14 +44,32 @@ html body {
   background-color: #ffffff;
 }
 
-.profile-frame {
+.content {
   width: auto;
   margin: auto;
   text-align: center;
   font-family: avenir;
 }
 
+.my-record {
+  text-align: left;
+}
+
+.sub-content {
+  margin: 20px 0px;
+}
+
+.subheading {
+  font-weight: bold;
+  padding: 5px 15px;
+}
+
+.detail {
+  line-height: 1.7;
+}
+
 .profile-pic {
+  border-radius: 100px;
   width: 200px;
   height: 200px;
 }
