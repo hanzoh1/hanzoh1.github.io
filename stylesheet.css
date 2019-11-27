@@ -15,6 +15,9 @@ a {
   color: skyblue;
 }
 
+ul {
+  list-style: none;
+}
 /* 大枠となるスタイル
 ------------------------------------------------------------------------------------------------------------------------------------------------------ */
 
@@ -28,7 +31,7 @@ a {
 .half-screen {
   height: 100vh;
   width: 50%;
-  box-shadow: 0 0 8px gray;
+  box-shadow: 0 0 4px white;
 }
 
 .column-left {
@@ -66,9 +69,6 @@ a {
 .my-record {
   text-align: left;
   position: absolute;
-  top: 50%;
-  left: 20%;
-  transform: translate(-50%, -50%);
 }
 
 .sub-content {
@@ -80,9 +80,10 @@ a {
   padding: 5px 20px;
 }
 
-.detail {
+.explanation {
+  color: darkgray;
   line-height: 1.7;
-  padding: 5px 20px;
+  padding: 0px 20px;
 }
 
 .profile-pic {
