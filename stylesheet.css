@@ -55,6 +55,7 @@ a {
 }
 
 .column-right {
+  position: relative;
   background-color: #ffffff;
 }
 
@@ -63,6 +64,10 @@ a {
 
 .my-record {
   text-align: left;
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
 }
 
 .sub-content {
