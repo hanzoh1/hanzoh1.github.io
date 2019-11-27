@@ -49,17 +49,23 @@ html body {
   margin: auto;
   text-align: center;
 }
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
 
 .column-right {
   background-color: #ffffff;
 }
 
+<<<<<<< Updated upstream
 
 #profile-pic {
   width:200px;
   height:200px;
 
+=======
+>>>>>>> Stashed changes
 .my-record {
   text-align: left;
 }
@@ -99,8 +105,13 @@ html body {
 .profile {
   color: midnightblue;
   font-size: 16px;
+<<<<<<< Updated upstream
   z-index: 1;
   position: relative;
+=======
+  position: relative;
+  z-index: 1;
+>>>>>>> Stashed changes
 }
 
 .icon {
