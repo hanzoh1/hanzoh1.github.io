@@ -9,7 +9,7 @@ html body {
 
 a {
   text-decoration: none;
-  color: lightblue;
+  color: skyblue;
 }
 
 .wrap {
@@ -93,5 +93,6 @@ a {
 }
 
 .icon {
-  margin: 5px;
+  margin: 10px;
+  font-size: 25px;
 }
