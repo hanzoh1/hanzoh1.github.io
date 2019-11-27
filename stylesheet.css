@@ -21,7 +21,7 @@ html body {
 
 .column-left {
   position: relative;
-  background-image: url("https://hanzoh1.github.io/background-img.jpg");
+  background-image: url("./background-img.jpg");
   background-size: cover;
   height: auto;
 }
@@ -91,6 +91,4 @@ html body {
 
 .icon {
   margin: 5px;
-  width: 30px;
-  height: 30px;
 }
