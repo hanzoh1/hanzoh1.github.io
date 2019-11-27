@@ -27,6 +27,9 @@ html body {
 }
 
 .content {
+  width: auto;
+  margin: auto;
+  text-align: center;
   color: #ffffff;
   position: absolute;
   top: 50%;
@@ -36,12 +39,6 @@ html body {
 
 .column-right {
   background-color: #ffffff;
-}
-
-.content {
-  width: auto;
-  margin: auto;
-  text-align: center;
 }
 
 .my-record {
