@@ -28,6 +28,7 @@ a {
 .half-screen {
   height: 100vh;
   width: 50%;
+  box-shadow: 0 0 8px gray;
 }
 
 .column-left {
@@ -56,7 +57,7 @@ a {
 
 .column-right {
   position: relative;
-  background-color: #ffffff;
+  background-color: #fafafa;
 }
 
 /* 各パーツごとのスタイル
