@@ -96,13 +96,6 @@ ul {
   font-size: 18px;
 }
 
-.ens {
-  color: #ff8c00;
-  background: -webkit-linear-gradient(0deg, #40e0d0, #ff8c00, #ff0080);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
 .profile {
   color: mintcream;
   font-size: 16px;
@@ -110,5 +103,10 @@ ul {
 
 .icon {
   margin: 10px;
-  font-size: 25px;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.message {
+  padding: 20px 0 15px 0;
 }
