@@ -13,3 +13,4 @@ function textDisplay(id) {
     btnText.innerHTML = "(Undo)";
     moreText.style.display = "inline";
   }
+  
