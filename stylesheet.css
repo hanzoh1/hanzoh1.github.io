@@ -43,9 +43,21 @@ img {
 @media screen and (max-width: 768px) {
   .wrap {
     flex-direction: column;
+    height: auto;
   }
   .half-screen {
     width: 100%;
+    height: auto;
+  }
+  .background-color {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+  }
+  .content {
+    height: 100%;
+    box-sizing: border-box;
+    overflow: scroll;
   }
 }
 
