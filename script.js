@@ -1,9 +1,9 @@
 "use strict";
 
-function textDisplay(id) {
-  var dots = document.getElementById("dot");
-  var moreText = document.getElementById("more");
-  var btnText = document.getElementById(id);
+function textDisplay(dotId, moreId, btnId) {
+  var dots = document.getElementById(dotId);
+  var moreText = document.getElementById(moreId);
+  var btnText = document.getElementById(btnId);
 
   if (dots.style.display === "none") {
     dots.style.display = "inline";
