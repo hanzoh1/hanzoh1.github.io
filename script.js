@@ -1,9 +1,9 @@
 "use strict";
 
-function textDisplay() {
+function textDisplay(id) {
   var dots = document.getElementById("dots");
   var moreText = document.getElementById("more");
-  var btnText = document.getElementById("myBtn");
+  var btnText = document.getElementById(id);
   if (dots.style.display === "none") {
     dots.style.display = "inline";
     btnText.innerHTML = "(Read More)";
