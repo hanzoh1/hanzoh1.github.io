@@ -35,6 +35,15 @@ ul {
   box-shadow: 0 0 4px white;
 }
 
+@media screen and (max-width: 768px) {
+  .wrap {
+    flex-direction: column;
+  }
+  .half-screen {
+    width: 100%;
+  }
+}
+
 .column-left {
   position: relative;
   background-image: url("./background-img.jpg");
