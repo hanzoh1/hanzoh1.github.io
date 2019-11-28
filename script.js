@@ -1,7 +1,7 @@
 "use strict";
 
 function textDisplay(id) {
-  var dots = document.getElementById("dots");
+  var dots = document.getElementById("dot");
   var moreText = document.getElementById("more");
   var btnText = document.getElementById(id);
   if (dots.style.display === "none") {
@@ -13,4 +13,3 @@ function textDisplay(id) {
     btnText.innerHTML = "(Undo)";
     moreText.style.display = "inline";
   }
-}
