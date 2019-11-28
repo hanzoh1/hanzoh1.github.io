@@ -51,7 +51,7 @@ img {
 
 .column-left {
   position: relative;
-  background-image: url("./background-img.jpg");
+  background-image: url("img/background-img.jpg");
   background-size: cover;
   height: auto;
 }
